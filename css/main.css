@@ -1,0 +1,120 @@
+.container {
+    display: inline-block;
+
+    margin-top: 96px;
+    margin-left: 279px;
+    padding-left: 120px;
+    height: auto;
+    width: 650px;
+}
+.banner h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 79px;
+    color: #000000;
+
+}
+p {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 34px;
+    padding-left: 1px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+.button {
+    background-color: #34547A;
+    width: 225px;
+    height: 65px;
+    border: none;
+    padding: 8px 32px 15px 31px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 67px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+}
+.letter__block {
+    background-color: #FFFFFF;
+    width: 100%;
+    text-align: center;
+    margin-top: 141px;
+    margin-left: auto;
+    padding-left: 17px;
+
+}
+.about {
+    display: inline-block;
+    text-align: center;
+    width: 525px;
+    margin-top: 85px;
+    margin-bottom: 76px;
+}
+.about2 {
+    display: inline-block;
+    text-align: center;
+    width: 525px;
+    margin-top: 74px;
+    margin-bottom: 59px;
+}
+h2 {
+    margin-bottom: 39px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    color: #000000;
+}
+.blue__box {
+    background-color: #34547A;
+    width: 100%;
+    padding: 20px;
+    font-size: 0;
+}
+.img__box {
+    display: inline-block;
+    width: 100%;
+    height: 200px;
+    padding-left: 51px;
+    padding-top: 80px;
+    padding-bottom:20px ;
+    margin-bottom: 10px;
+    margin-left:  auto ;
+    text-align: center;
+}
+.img__holder {
+    display: inline-block;
+    width: 142px;
+    height: 50px;
+    margin-right: 47px;
+
+}
+img {
+    display: inline-block;
+    width: 142px;
+    height: 50px;
+
+}
+.letter__block2 {
+    width: 100%;
+    margin-left: 667px;
+    padding-left: 30px;
+
+}
+.video__block {
+    width: 100%;
+    margin-left: 405px;
+    margin-bottom: 96px;
+
+}

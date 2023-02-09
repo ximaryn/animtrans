@@ -1,0 +1,30 @@
+.header {
+  display: inline-block;
+    margin-top: 88px;
+    margin-left: 239px;
+    padding-left: 120px;
+
+}
+.nav li {
+    display: inline-block;
+    margin-right: 38px;
+}
+.a__style1 {
+    text-decoration: none;
+}
+.nav__list {
+    display: inline-block;
+    width: 100%;
+}
+a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+h1 {
+    transform: skew(15deg);
+}

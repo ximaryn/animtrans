@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Simple site</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="block__all">
+            <div id="modal_call">
+                CALL MODAL
+            </div>
+            <div id="callback_button">
+                call
+            </div>
+            <header class="header">
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li><a style="color: #34547A" href="#">homepage</a></li>
+                        <li><a style="color: #000000" href="#">about author</a></li>
+                        <li><a style="color: #000000" href="#">works</a></li>
+                        <li><a style="color: #000000" href="#">process</a></li>
+                        <li><a style="color: #000000" href="#">contacts</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <main class="main">
+                <div class="banner">
+                    <div class="container">
+                        <div class="square">
+
+                        </div>
+                        <h1>Design and layout</h1>
+                        <p>Lorem Ipsum is fish text often used in print and web design. Lorem Ipsum has been the standard "fish" for Latin texts since the early 16th century.</p>
+                        <button type="button" class="button">WRITE ME
+                        </button>
+                    </div>
+                </div>
+                <div class="letter__block">
+                    <div class="about">
+                        <h2>About me</h2>
+                        <p>About meLorem Ipsum is fish text often used in print and web design. Lorem Ipsum has been the standard "fish" for Latin texts since the early 16th century.</p>
+                    </div>
+                </div>
+                <div class="blue__box">
+                    <div class="img__box">
+                        <div class="img__holder">
+                            <img src="images/numbers__item.png" alt="pen">
+                        </div>
+                        <div class="img__holder">
+                            <img src="images/numbers__item.png" alt="pen">
+                        </div>
+                        <div class="img__holder">
+                            <img src="images/numbers__item.png" alt="pen">
+                        </div>
+                        <div class="img__holder">
+                            <img src="images/numbers__item.png" alt="pen">
+                        </div>
+                        <div class="img__holder">
+                            <img src="images/numbers__item.png" alt="pen">
+                        </div>
+                        <div class="img__holder">
+                            <img src="images/numbers__item.png" alt="pen">
+                        </div>
+                    </div>
+                </div>
+                <div class="letter__block2">
+                    <div class="about2">
+                        <h2>How do I work</h2>
+                        <p>Lorem Ipsum is fish text often used in print and web design. Lorem Ipsum has been the standard "fish" for Latin texts since the early 16th century.</p>
+                    </div>
+                </div>
+                <div class="video__block">
+                    <iframe width="1110" height="600" src="https://www.youtube.com/embed/9ZXFaaQJb0c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </main>
+            <footer class="footer">
+                <div class="author__text">
+                    <h3>John Smith</h3>
+                    <span>(c) 2018. All rights reserved.</span>
+                </div>
+            </footer>
+            <div id="modal">
+                <div class="modal__body">
+                    <div class="modal__title">
+                        Callback--->
+                        <span class="close" id="modal_close">X</span>
+                    </div>
+                    <div class="">
+                        <form>
+                            <input type="text" placeholder="name">
+                            <input type="email" placeholder="mail">
+                            <button type="submit">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+<script>
+    $(document).ready(function(){
+        $('#modal_call').on('click', function (){
+            $('#modal').addClass('active');
+        });
+        $('#modal_close').on('click', function (){
+            $('#modal').removeClass('active');
+        });
+    });
+</script>

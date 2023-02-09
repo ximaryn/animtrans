@@ -1,0 +1,32 @@
+.footer {
+    background-color: #34547A;
+    width: 100%;
+
+    margin-top: 81px;
+    padding-left: 398px;
+    padding-top: 28px;
+}
+.author__text {
+    display: inline-block;
+    width: auto;
+    margin-bottom: 44px;
+    margin-left: 8px;
+}
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    color: #FFFFFF;
+    margin-bottom: 12px;
+}
+span {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF;
+
+}

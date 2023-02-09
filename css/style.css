@@ -1,0 +1,82 @@
+@import "header.css";
+@import "main.css";
+@import "footer.css";
+* {
+    box-sizing: border-box;
+}
+.block__all {
+    max-width: 1920px;
+    height: auto;
+    background-color: rgba(238, 239, 241, 1);
+    margin: 0 auto;
+}
+body {
+    margin: 0;
+}
+#modal {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.9);
+    display: none;
+}
+#modal.active {
+    display: block;
+}
+.modal__body {
+    max-width: 500px;
+    margin: auto;
+    background-color: #ffffff;
+    margin-top: 30%;
+
+}
+.modal__title {
+    position: relative;
+}
+.modal__title span {
+    top: -10px;
+    right: -10px;
+    border-radius: 100%;
+    border: 1px solid black;
+}
+#callback_button {
+    position: fixed;
+    right: 0;
+
+    top: 0;
+    border-radius: 100%;
+    border: 1px solid red;
+}
+.state {
+    width: 550px;
+    height: 200px;
+}
+.square {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 0;
+    border: 2px solid red;
+
+}
+.square:hover {
+    animation: rotage 3s infinite;
+}
+@keyframes rotage {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+@-webkit-keyframes rotage {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
